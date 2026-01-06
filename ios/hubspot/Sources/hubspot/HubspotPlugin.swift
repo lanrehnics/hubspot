@@ -1,6 +1,6 @@
 import Flutter
 import SwiftUI
-import HubspotMobileSDK
+import HubspotMobileSDKWrapper
 
 @MainActor
 public class HubspotPlugin: NSObject, FlutterPlugin {
