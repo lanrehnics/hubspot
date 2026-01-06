@@ -25,6 +25,8 @@ Hubspot mobile chat sdk beta for flutter.
   # Pick up your Swift/ObjC plugin sources
   # Your structure is: hubspot/Sources/hubspot/HubspotPlugin.swift
   s.source_files     = 'hubspot/Sources/hubspot/**/*.{swift,h,m}'
+  s.vendored_frameworks = 'Frameworks/HubspotMobileSDKWrapper.xcframework'
+
 
   # Swift settings
   s.swift_version    = '5.0'
